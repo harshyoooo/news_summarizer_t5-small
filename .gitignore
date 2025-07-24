@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+
+# VSCode / IDEs
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Django
+db.sqlite3
+*.log
+media/
+staticfiles/
+
+# Model & Tokenizer files
+# t5_model/__pycache__/
+# t5_model/*.bin
+# t5_model/*.pt
+# t5_model/*.ckpt
+# t5_model/*.h5
+# t5_model/*.json
+# t5_model/*.model
+
+# If you want to keep the model local only
+# uncomment below to fully ignore the folder
+# t5_model/
+
+# Environment and Dependency Tracking
+.env
+*.env
+.env.*
+
+# Pip cache
+pip-wheel-metadata/
+__pypackages__/

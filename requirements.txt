@@ -1,0 +1,6 @@
+django
+djangorestframework
+tensorflow==2.19.0
+tf-keras==2.19.0
+transformers==4.52.4
+sentencepiece

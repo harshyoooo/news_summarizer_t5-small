@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>News Summarizer</title>
+</head>
+<body>
+    <h2>News Article Summarizer (T5)</h2>
+    <form method="post">
+        {% csrf_token %}
+        <textarea name="text" rows="12" cols="80" placeholder="Paste your article here">{{ text }}</textarea><br><br>
+        <input type="submit" value="Summarize">
+    </form>
+    {% if summary %}
+        <h3>Predicted Summary:</h3>
+        <p><strong>{{ summary }}</strong></p>
+    {% endif %}
+</body>
+</html>

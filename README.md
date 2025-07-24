@@ -31,6 +31,7 @@ This is an end-to-end **abstractive news summarization web application**, powere
 
 All artifacts are saved in the local folder: `t5_model/`
 
+![alt text](<image_sam.jpg>)
 ---
 
 ## 🏗️ Project Structure
@@ -54,6 +55,3 @@ summarizer_model_drf/
 ├── requirements.txt
 ├── runtime.txt                     # python-3.10.12 for Render compatibility
 └── README.md
-
-
-![alt text](<image_sam.jpg>)

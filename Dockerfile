@@ -18,6 +18,6 @@ COPY . .
 
 # Expose port
 EXPOSE 8000
-
+WORKDIR /app/summarizer_project1
 # Run server using Gunicorn
 CMD ["gunicorn", "summarizer_project.wsgi:application", "--bind", "0.0.0.0:8000"]

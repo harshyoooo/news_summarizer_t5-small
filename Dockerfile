@@ -20,4 +20,4 @@ COPY . .
 EXPOSE 8000
 
 # Run server using Gunicorn
-CMD ["gunicorn", "summarizer_backend.wsgi:application", "--bind", "0.0.0.0:8000"]
+CMD ["gunicorn", "summarizer_project.wsgi:application", "--bind", "0.0.0.0:8000"]
